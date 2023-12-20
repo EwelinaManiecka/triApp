@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
-import AboutImg from "../components/assets/h4-wien-opera.jpg";
+import AboutImg from "../components/assets/h10-mountain-landscape.jpg";
 
 function About() {
   return (

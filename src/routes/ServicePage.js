@@ -1,7 +1,20 @@
+import Navbar from "../components/Navbar/Navbar";
+import Hero from "../components/Hero/Hero";
+import ServiceImg from "../components/assets/h4-wien-opera.jpg";
+
 function Service() {
   return (
     <>
-      <h1>This is service page</h1>
+      <>
+        <Navbar />
+
+        <Hero
+          cName="heroMid"
+          heroImg={ServiceImg}
+          title="Service"
+          btnClass="hide"
+        />
+      </>
     </>
   );
 }

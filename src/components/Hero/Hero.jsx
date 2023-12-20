@@ -1,9 +1,10 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 import css from "./Hero.module.css";
 
 function Hero(props) {
-  const [isAbout] = useState(false);
+  // const [isAbout] = useState(false);
+
   return (
     <div className={props.cName}>
       <img alt="hero img" src={props.heroImg} />
@@ -13,13 +14,9 @@ function Hero(props) {
         <p>{props.text}</p>
         <a
           href={props.url}
-          className={(props.btnClass & isAbout && css.show) || css.hide}
-          // className={css.show}
-          // className={css.hide}
-        >
-          {/* I use operator tern ? :  <- will check this the same time */}
+          className={props.btnClass}
+        ></a>
           {props.buttonText}
-        </a>
       </div>
     </div>
   );
