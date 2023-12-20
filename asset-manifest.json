@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb596b91.css",
-    "main.js": "/static/js/main.65caab45.js",
+    "main.css": "/static/css/main.8e11c6ff.css",
+    "main.js": "/static/js/main.8b94b508.js",
+    "static/media/h10-mountain-landscape.jpg": "/static/media/h10-mountain-landscape.736d7a2772c56a345e92.jpg",
     "static/media/h4-wien-opera.jpg": "/static/media/h4-wien-opera.a11e0d722085743f5e9b.jpg",
+    "static/media/h6-wien-schonburn.jpg": "/static/media/h6-wien-schonburn.d36dd8a98ce6bb9d2081.jpg",
     "index.html": "/index.html",
-    "main.cb596b91.css.map": "/static/css/main.cb596b91.css.map",
-    "main.65caab45.js.map": "/static/js/main.65caab45.js.map"
+    "main.8e11c6ff.css.map": "/static/css/main.8e11c6ff.css.map",
+    "main.8b94b508.js.map": "/static/js/main.8b94b508.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb596b91.css",
-    "static/js/main.65caab45.js"
+    "static/css/main.8e11c6ff.css",
+    "static/js/main.8b94b508.js"
   ]
 }
