@@ -5,7 +5,7 @@ import css from "./Hero.module.css";
 function Hero(props) {
   const [isAbout] = useState(false);
   return (
-    <div className={props.cName} className={css.heroMid}>
+    <div className={props.cName}>
       <img alt="hero img" src={props.heroImg} />
 
       <div className={css.heroText}>
